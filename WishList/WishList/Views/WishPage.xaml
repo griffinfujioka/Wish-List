@@ -1,0 +1,64 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WishList.Views.WishPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Name="PageTitle" Style="{StaticResource PhoneTextTitle1Style}" Text="details" />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="12,102,12,0" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="552*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="193*" />
+                <ColumnDefinition Width="263*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Height="36" HorizontalAlignment="Left" Margin="12,10,0,0" Name="textBlock1" Text="Wish" VerticalAlignment="Top" Width="220" FontSize="26" Grid.ColumnSpan="2" Grid.Row="1" />
+            <TextBox Height="74" HorizontalAlignment="Left" Margin="0,38,0,0" Name="wishTxtBox" Text="" InputScope="Text" VerticalAlignment="Top" Width="444" TextWrapping="Wrap" Grid.ColumnSpan="2" Grid.Row="1" />
+            <TextBlock FontSize="26" Height="36" HorizontalAlignment="Left" Margin="12,106,0,0" Name="textBlock2" Text="Why?"   VerticalAlignment="Top" Width="438" Grid.ColumnSpan="2" Grid.Row="1" />
+            <TextBox Height="451" HorizontalAlignment="Left" Margin="0,134,0,0" Name="whyTxtBox" Text="" InputScope="Text" TextWrapping="Wrap" VerticalAlignment="Top" Width="444" Grid.ColumnSpan="2" Grid.Row="1" AcceptsReturn="True" />
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+
+            <shell:ApplicationBarIconButton 
+                IconUri="/Images/appbar.save.rest.png" 
+                Text="save" 
+                x:Name="saveWishAppBarButton" 
+                Click="saveWishAppBarButton_Click"/>
+
+            
+            <shell:ApplicationBarIconButton 
+                IconUri="/Images/appbar.delete.rest.png"
+                Text="delete"
+                x:Name="deleteWishButton"
+                Click="deleteWishButton_Click" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

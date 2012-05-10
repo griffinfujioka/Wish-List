@@ -1,0 +1,6 @@
+<MarketplaceDetails>
+  <SmallAppTile>WishListAppIconSMALL.png</SmallAppTile>
+  <LargeAppTile>WishListAppIconMedium.png</LargeAppTile>
+  <PCAppTile>WishListAppIconLARGE.png</PCAppTile>
+  <ScreenShots>screenshot one.png;screenshot 2.png;;;;;;;</ScreenShots>
+</MarketplaceDetails>
