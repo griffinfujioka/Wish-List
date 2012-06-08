@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
-
+using System.IO; 
 using WishList.Models;
 
 namespace WishList.ViewModels
@@ -123,6 +123,10 @@ namespace WishList.ViewModels
             // Save the database 
             WishesDB.SubmitChanges(); 
 
+        }
+
+        public void AddImage(Stream image, string url)
+        {
         }
     }
 

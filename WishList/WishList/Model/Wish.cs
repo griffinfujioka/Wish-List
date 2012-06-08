@@ -2,14 +2,30 @@
 using System.ComponentModel;
 using System.Data.Linq;
 using System.Data.Linq.Mapping;
+using Microsoft.Devices;
+using Microsoft.Phone;
+using Microsoft.Phone.Tasks;
+using Microsoft.Phone.Controls;
+using System.IO;
+using System.IO.IsolatedStorage;
+using WishList.Views;
+using System.Windows.Media;
+using System.Windows.Media.Animation;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media.Imaging; 
 
 namespace WishList.Models
 {
     [Table]
     public class Wish : INotifyPropertyChanged, INotifyPropertyChanging
     {
+        
         // Define ID: private field, public property, and database column.
         private int _wishId;
+        
 
         [Column(IsPrimaryKey = true, IsDbGenerated = true, DbType = "INT NOT NULL Identity", CanBeNull = false, AutoSync = AutoSync.OnInsert)]
         public int wishId
@@ -60,11 +76,12 @@ namespace WishList.Models
 
         }
 
+
         //private string _wishCost;
         //[Column]
         //public string wishCost
         //{
-        //    get { return wishCost; }
+        //    get { return _wishCost; }
         //    set
         //    {
         //        if (_wishCost != value)
@@ -75,6 +92,22 @@ namespace WishList.Models
         //        }
         //    }
         //}
+
+        private byte[] _image;
+        [Column]
+        public byte[] Image
+        {
+            get { return _image; }
+            set 
+            {
+                
+                _image = value;
+                NotifyPropertyChanging("Image");
+                NotifyPropertyChanged("Image"); 
+            } 
+        }
+
+
 
         #region INotifyPropertyChanged Members
 
@@ -106,7 +139,7 @@ namespace WishList.Models
 
         #endregion
 
-
+        
 
 
     }

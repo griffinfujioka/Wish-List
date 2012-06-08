@@ -10,21 +10,29 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
+using Microsoft.Phone.Tasks;    // For composing an email 
 using WishList.Models;
 using WishList.ViewModels;
 using Microsoft.Live; 
 using Microsoft.Live.Controls; 
 
+
 namespace WishList
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        private LiveConnectClient liveClient; 
+        private LiveConnectClient liveClient;
+
+        
         // Constructor
         public MainPage()
         {
             InitializeComponent();
             this.DataContext = App.ViewModel;
+            var WishList = new List<Wish>(App.ViewModel.Wishes);
+            this.WishListListBox.ItemsSource = WishList;
+            HubTileService.FreezeGroup("WishesGroup"); 
+            
         }
 
         private void newItemAppBarButton_Click(object sender, EventArgs e)
@@ -49,8 +57,10 @@ namespace WishList
 
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
-            (DataContext as WishViewModel).SelectedWish = null;
-            WishListListBox.SelectedItem = null; 
+            //(DataContext as WishViewModel).SelectedWish = null;
+            //WishListListBox.SelectedItem = null;
+            var WishList = new List<Wish>(App.ViewModel.Wishes);
+            this.WishListListBox.ItemsSource = WishList; 
             base.OnNavigatedTo(e);
         }
 
@@ -115,6 +125,43 @@ namespace WishList
         private void uploadToSkyDriveButton_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void HubTile_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            //var button = (sender as ListBox).SelectedItem as Wish;
+            //var button = (sender as ListBox).SelectedItem as Wish;
+
+            var button = (sender as ListBoxItem).DataContext;  
+            //App.ViewModel.SelectedWish = (button as Wish); 
+            if (button != null)
+            {
+                NavigationService.Navigate(new Uri("/Views/WishPage.xaml", UriKind.Relative));
+            }
+            return;
+        }
+
+        private void shareWishList_Click(object sender, EventArgs e)
+        {
+            EmailComposeTask emailComposeTask = new EmailComposeTask();
+            string WishList = "Here is my wish list: \n\n"; 
+
+            foreach (Wish wish in App.ViewModel.Wishes) 
+            {
+                WishList += wish.wishTitle + ": " + wish.wishWhy + "\n";
+            } 
+            emailComposeTask.Subject = "My wish list";
+            emailComposeTask.Body = WishList;
+
+            emailComposeTask.Show(); 
+
+        }
+
+        private void RateReview_Click(object sender, EventArgs e)
+        {
+            MarketplaceReviewTask marketplaceReviewTask = new MarketplaceReviewTask();
+
+            marketplaceReviewTask.Show();
         }
     }
 

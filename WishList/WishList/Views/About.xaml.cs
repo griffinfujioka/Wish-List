@@ -21,29 +21,6 @@ namespace WishList.Views
         {
             InitializeComponent();
         }
-
-        private void hyperlinkButton1_Click(object sender, RoutedEventArgs e)
-        {
-
-            WebBrowserTask wbt = new WebBrowserTask
-            {
-                URL = "http://www.twitter.com/griffinfujioka"
-            };
-            wbt.Show(); 
-               
-
-        }
-
-        private void hyperlinkButton2_Click(object sender, RoutedEventArgs e)
-        {
-            WebBrowserTask wbt = new WebBrowserTask
-            {
-                URL = "http://www.twitter.com/DavidHeyduck"
-            };
-            wbt.Show(); 
-               
-        }
-
        
     }
 }

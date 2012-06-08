@@ -1,28 +1,35 @@
-﻿<xapCache source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\WishList.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="5/9/2012 11:58:38 AM">
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="5/6/2012 11:03:11 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Tile.png" archivePath="Tile.png" lastWriteTime="5/7/2012 2:32:18 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\AppList.png" archivePath="AppList.png" lastWriteTime="5/7/2012 2:30:39 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\obj\Release\WishList.dll" archivePath="WishList.dll" lastWriteTime="5/9/2012 11:58:36 AM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Live\v5.0\Windows Phone\References\Microsoft.Live.Controls.dll" archivePath="Microsoft.Live.Controls.dll" lastWriteTime="11/28/2011 11:48:10 AM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Live\v5.0\Windows Phone\References\Microsoft.Live.dll" archivePath="Microsoft.Live.dll" lastWriteTime="11/28/2011 11:45:28 AM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="9/15/2011 3:36:26 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/31/2012 4:10:45 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Background.png" archivePath="Background.png" lastWriteTime="3/31/2012 4:10:45 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.add.rest.png" archivePath="Images\appbar.add.rest.png" lastWriteTime="3/31/2012 4:31:40 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.cancel.rest.png" archivePath="Images\appbar.cancel.rest.png" lastWriteTime="3/31/2012 4:31:40 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.delete.rest.png" archivePath="Images\appbar.delete.rest.png" lastWriteTime="3/31/2012 4:31:41 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="3/31/2012 4:31:41 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="5/6/2012 11:31:36 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\WishListAppIconLARGE.png" archivePath="WishListAppIconLARGE.png" lastWriteTime="4/3/2012 10:46:08 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\WishListAppIconSMALL.png" archivePath="WishListAppIconSMALL.png" lastWriteTime="4/3/2012 10:46:08 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="5/9/2012 11:58:38 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/31/2012 4:10:45 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="3/31/2012 4:10:45 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.add.rest.png" archivePath="Images\appbar.add.rest.png" lastWriteTime="3/31/2012 4:31:40 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.cancel.rest.png" archivePath="Images\appbar.cancel.rest.png" lastWriteTime="3/31/2012 4:31:40 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.delete.rest.png" archivePath="Images\appbar.delete.rest.png" lastWriteTime="3/31/2012 4:31:41 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="3/31/2012 4:31:41 AM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="5/6/2012 11:31:36 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\WishListAppIconLARGE.png" archivePath="WishListAppIconLARGE.png" lastWriteTime="4/3/2012 10:46:08 PM" />
-  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\WishListAppIconSMALL.png" archivePath="WishListAppIconSMALL.png" lastWriteTime="4/3/2012 10:46:08 PM" />
+﻿<xapCache source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\WishList.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="6/8/2012 12:24:33 PM">
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="5/7/2012 12:03:11 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Tile.png" archivePath="Tile.png" lastWriteTime="5/13/2012 10:59:34 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\AppList.png" archivePath="AppList.png" lastWriteTime="5/7/2012 3:30:39 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\obj\Release\WishList.dll" archivePath="WishList.dll" lastWriteTime="6/8/2012 12:24:30 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Libs\ExifLib.dll" archivePath="ExifLib.dll" lastWriteTime="6/6/2012 10:16:41 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Live\v5.0\Windows Phone\References\Microsoft.Live.Controls.dll" archivePath="Microsoft.Live.Controls.dll" lastWriteTime="11/28/2011 12:48:10 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Live\v5.0\Windows Phone\References\Microsoft.Live.dll" archivePath="Microsoft.Live.dll" lastWriteTime="11/28/2011 12:45:28 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="9/15/2011 4:36:26 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Toolkit\Oct11\Bin\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="10/6/2011 1:33:14 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/31/2012 5:10:45 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Background.png" archivePath="Background.png" lastWriteTime="3/31/2012 5:10:45 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\BlueTile.png" archivePath="BlueTile.png" lastWriteTime="6/4/2012 9:50:58 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.add.rest.png" archivePath="Images\appbar.add.rest.png" lastWriteTime="3/31/2012 5:31:40 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.cancel.rest.png" archivePath="Images\appbar.cancel.rest.png" lastWriteTime="3/31/2012 5:31:40 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.delete.rest.png" archivePath="Images\appbar.delete.rest.png" lastWriteTime="3/31/2012 5:31:41 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.feature.camera.rest.png" archivePath="Images\appbar.feature.camera.rest.png" lastWriteTime="5/26/2012 12:40:30 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="3/31/2012 5:31:41 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Libs\ExifLib.dll" archivePath="Libs\ExifLib.dll" lastWriteTime="6/6/2012 10:16:41 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="6/5/2012 6:22:53 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\WishListAppIconLARGE.png" archivePath="WishListAppIconLARGE.png" lastWriteTime="4/3/2012 11:46:08 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\WishListAppIconSMALL.png" archivePath="WishListAppIconSMALL.png" lastWriteTime="4/3/2012 11:46:08 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="6/6/2012 11:02:51 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="3/31/2012 5:10:45 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="3/31/2012 5:10:45 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\BlueTile.png" archivePath="BlueTile.png" lastWriteTime="6/4/2012 9:50:58 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.add.rest.png" archivePath="Images\appbar.add.rest.png" lastWriteTime="3/31/2012 5:31:40 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.cancel.rest.png" archivePath="Images\appbar.cancel.rest.png" lastWriteTime="3/31/2012 5:31:40 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.delete.rest.png" archivePath="Images\appbar.delete.rest.png" lastWriteTime="3/31/2012 5:31:41 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.feature.camera.rest.png" archivePath="Images\appbar.feature.camera.rest.png" lastWriteTime="5/26/2012 12:40:30 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="3/31/2012 5:31:41 AM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="6/5/2012 6:22:53 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\WishListAppIconLARGE.png" archivePath="WishListAppIconLARGE.png" lastWriteTime="4/3/2012 11:46:08 PM" />
+  <file source="C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\WishListAppIconSMALL.png" archivePath="WishListAppIconSMALL.png" lastWriteTime="4/3/2012 11:46:08 PM" />
 </xapCache>

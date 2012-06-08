@@ -76,3 +76,10 @@ C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Rel
 C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\vi\Microsoft.Live.Controls.resources.dll
 C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\zh-hans\Microsoft.Live.Controls.resources.dll
 C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\zh-hant\Microsoft.Live.Controls.resources.dll
+C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Tile.png
+C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Images\appbar.feature.camera.rest.png
+C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\BlueTile.png
+C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Griffin\Documents\Visual Studio 2010\Projects\WishList\WishList\Bin\Release\ExifLib.dll

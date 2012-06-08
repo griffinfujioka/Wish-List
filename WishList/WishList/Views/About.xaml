@@ -28,16 +28,16 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock Height="99" HorizontalAlignment="Left" Margin="12,6,0,0" Name="textBlock1" Text="This application stores a simple wish list
-and allows users to maintain reasons for wanting each wish." 
+            <TextBlock Height="237" HorizontalAlignment="Left" Margin="12,6,0,0" Name="textBlock1" Text="This application stores a simple wish list
+and optionally includes reasons for wanting each wish and an associated image. Additionally, the wish list may be  shared via email or individual wishes may be shared via social networks or email. No matter how you hold your phone to capture an image, it will be rotated and displayed in portait mode!"
                        VerticalAlignment="Top" Width="438" TextWrapping="Wrap">
             </TextBlock>
-            <TextBlock Height="31" HorizontalAlignment="Left" Margin="12,111,0,0" Name="textBlock2" Text="Created by: Griffin Fujioka and David Heyduck
+            <TextBlock Height="31" HorizontalAlignment="Left" Margin="6,275,0,0" Name="textBlock2" Text="Created by: Griffin Fujioka and David Heyduck
 " VerticalAlignment="Top" Width="444" TextWrapping="Wrap" />
-            <TextBlock Height="157" HorizontalAlignment="Left" Margin="12,148,0,0" Name="textBlock4" Text="Griffin is a student of software development while
+            <TextBlock Height="157" HorizontalAlignment="Left" Margin="6,312,0,0" Name="textBlock4" Text="Griffin is a student of software development while
 David is a focuses of graphic design and can
 often be found behind the DJ. booth. Both study 
-at Washington State University." VerticalAlignment="Top" Width="444" TextWrapping="Wrap" />
+at Washington State University. Go Cougs!" VerticalAlignment="Top" Width="444" TextWrapping="Wrap" />
         </Grid>
     </Grid>
 </phone:PhoneApplicationPage>
